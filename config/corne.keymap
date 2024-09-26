@@ -24,20 +24,20 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E        &kp R     &kp T        &kp Y            &kp U              &kp I        &kp O    &kp P          &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D        &kp F     &kp G        &kp H            &kp J              &kp K        &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-&kp LSHFT  &kp Z  &kp X  &kp C        &kp V     &kp B        &kp N            &kp M              &kp COMMA    &kp DOT  &kp FSLH       &kp RIGHT_ALT
-                         &lt 1 ENTER  &kp LCMD  &kp SPACE    &mt ENTER SPACE  &kp RIGHT_CONTROL  &lt 2 ENTER
+&kp ESC    &kp Q  &kp W  &kp E  &kp R     &kp T        &kp Y      &kp U              &kp I      &kp O    &kp P          &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D  &kp F     &kp G        &kp H      &kp J              &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp N      &kp M              &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_ALT
+                         &mo 1  &kp LCMD  &kp SPACE    &kp ENTER  &kp RIGHT_CONTROL  &mo 2
             >;
         };
 
         upper_layer {
             display-name = "Upper";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4            &kp N5       &kp N6     &kp N7             &kp N8    &kp N9    &kp N0    &kp BSPC
-&kp TAB    &none   &kp LEFT  &kp DOWN  &kp UP            &kp RIGHT    &kp MINUS  &kp EQUAL          &kp LBKT  &kp RBKT  &kp BSLH  &none
-&kp LSHFT  &none   &none     &none     &none             &none        &none      &none              &none     &none     &none     &kp RIGHT_ALT
-                             &none     &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &kp RIGHT_CONTROL  &none
+&kp GRAVE  &kp N1  &kp N2    &kp N3  &kp N4            &kp N5       &kp N6     &kp N7             &kp N8    &kp N9    &kp N0    &kp BSPC
+&kp TAB    &none   &kp LEFT  &kp UP  &kp DOWN          &kp RIGHT    &kp MINUS  &kp EQUAL          &kp LBKT  &kp RBKT  &kp BSLH  &none
+&kp LSHFT  &none   &none     &none   &none             &none        &none      &none              &none     &none     &none     &kp RIGHT_ALT
+                             &none   &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &kp RIGHT_CONTROL  &none
             >;
         };
 
