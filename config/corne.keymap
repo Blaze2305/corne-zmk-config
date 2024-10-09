@@ -49,10 +49,10 @@
 
         lower_layer {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&trans     &kp MINUS        &kp EQUAL  &kp LBKT  &kp RBKT    &kp BSLH       &mkp MB4   &kp PAGE_DOWN  &kp PAGE_UP   &mkp MB5              &trans                 &trans
-&trans     &trans           &trans     &trans    &trans      &trans         &trans     &trans         &trans        &trans                &trans                 &trans
-                                       &trans    &trans      &trans         &trans     &trans         &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT    &kp HASH        &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&trans     &kp UNDERSCORE   &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE       &mkp MB4   &kp PAGE_DOWN  &kp PAGE_UP   &mkp MB5              &trans                 &trans
+&trans     &trans           &trans    &trans          &trans           &trans         &trans     &trans         &trans        &trans                &trans                 &trans
+                                      &trans          &trans           &trans         &trans     &trans         &trans
             >;
 
             label = "Lower";
